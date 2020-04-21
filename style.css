@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    height: 10vh;
+    background-color:#5b78c7
+}
+
+.nav-links{
+    display: flex
+
+}
