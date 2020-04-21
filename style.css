@@ -13,6 +13,38 @@ nav{
 }
 
 .nav-links{
-    display: flex
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 100% ;
+    width: 50%;
+    margin-left: auto;
+    align-items: center;
 
+
+}
+
+.nav-links li a {
+    color:white;
+    text-decoration: none ;
+    font-size:18px;
+    /* font-size: 16px;  this is usually standard font size */
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.landing{
+    height: 90vh; /*hhhhh*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.landing h1{
+    color: #ae5fce;
+    margin: 100px;
+    font-size: 50px;
 }
